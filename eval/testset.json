@@ -1,0 +1,283 @@
+[
+  {
+    "id": "tw-01",
+    "question": "What does it mean if the Tire Pressure Monitor warning light illuminates (steady, not flashing)?",
+    "correct_answer": "A flat tire or tire pressure loss has been detected; follow the information in the Check Control message.",
+    "source_pages": [146],
+    "category": "tire_wheels"
+  },
+  {
+    "id": "tw-02",
+    "question": "When using the compressor from the tire repair kit, what tire pressure should I correct to?",
+    "correct_answer": "2.5 bar / 36 psi.",
+    "source_pages": [328],
+    "category": "tire_wheels"
+  },
+  {
+    "id": "tw-03",
+    "question": "What is the minimum tire pressure that must be displayed before continuing to drive after using the tire repair kit?",
+    "correct_answer": "1.3 bar / 19 psi.",
+    "source_pages": [328],
+    "category": "tire_wheels"
+  },
+  {
+    "id": "tw-04",
+    "question": "How do I check the tire inflation pressure using the control display?",
+    "correct_answer": "Apps menu > Vehicle > Vehicle status > Tire Pressure Monitor, then compare the displayed pressure to the target value and correct if it deviates.",
+    "source_pages": [300],
+    "category": "tire_wheels"
+  },
+  {
+    "id": "tw-05",
+    "question": "What is the cold tire pressure for the standard 225/45 R18 95Y XL tires on a 330i (non-xDrive) at speeds up to 100 mph?",
+    "correct_answer": "2.3 bar / 33 psi, front and rear.",
+    "source_pages": [301],
+    "category": "tire_wheels",
+    "notes": "Known-hard: this value sits in a densely packed PDF table with repeated column headers; RAG systems may refuse rather than read the table correctly."
+  },
+  {
+    "id": "fm-01",
+    "question": "What type of engine oil should be used in this vehicle?",
+    "correct_answer": "BMW Longlife-22 FE++.",
+    "source_pages": [342],
+    "category": "fluids_maintenance"
+  },
+  {
+    "id": "fm-02",
+    "question": "If BMW Longlife-22 FE++ isn't available, what alternative engine oil specifications can be used?",
+    "correct_answer": "Up to 1 US quart/liter of an oil rated API SL, API SM, or API SN.",
+    "source_pages": [342],
+    "category": "fluids_maintenance"
+  },
+  {
+    "id": "fm-03",
+    "question": "What coolant specification does BMW recommend, and in what ratio should it be mixed with water?",
+    "correct_answer": "BMW LC-18 coolant additive, mixed 50:50 with water.",
+    "source_pages": [342],
+    "category": "fluids_maintenance"
+  },
+  {
+    "id": "fm-04",
+    "question": "What is the recommended octane rating for gasoline in this vehicle?",
+    "correct_answer": "91 AKI recommended (93 AKI for the M Performance model); 87 AKI is the minimum fuel grade.",
+    "source_pages": [339],
+    "category": "fluids_maintenance"
+  },
+  {
+    "id": "fm-05",
+    "question": "What windshield washer fluid does BMW recommend?",
+    "correct_answer": "BMW's Windshield Washer Concentrate or an equivalent.",
+    "source_pages": [343],
+    "category": "fluids_maintenance"
+  },
+  {
+    "id": "fm-06",
+    "question": "How does this vehicle determine when maintenance is due?",
+    "correct_answer": "Condition Based Service determines the maintenance recommendation using sensors and algorithms based on actual operating conditions, rather than a fixed mileage or time interval.",
+    "source_pages": [345],
+    "category": "fluids_maintenance"
+  },
+  {
+    "id": "fm-07",
+    "question": "Where is service history information stored so a service center can read it?",
+    "correct_answer": "In the vehicle key.",
+    "source_pages": [345],
+    "category": "fluids_maintenance"
+  },
+  {
+    "id": "wl-01",
+    "question": "What does it mean if the airbag warning light does not illuminate briefly when drive-ready state is switched on?",
+    "correct_answer": "The airbag system or seat belt tensioners may not be operational; have the vehicle checked immediately by a service center.",
+    "source_pages": [143],
+    "category": "warning_lights"
+  },
+  {
+    "id": "wl-02",
+    "question": "What does the brake system warning light indicate?",
+    "correct_answer": "The brake pads are worn or there's another brake system issue; braking assistance may not work and a higher pedal force may be required.",
+    "source_pages": [144],
+    "category": "warning_lights"
+  },
+  {
+    "id": "wl-03",
+    "question": "What does a flashing Forward Collision Warning light with a sound mean?",
+    "correct_answer": "Risk of imminent collision with a vehicle has been detected; immediately brake or take an evasive maneuver.",
+    "source_pages": [144],
+    "category": "warning_lights"
+  },
+  {
+    "id": "wl-04",
+    "question": "What does a flashing Pedestrian Warning light with an acoustic signal mean?",
+    "correct_answer": "Risk of imminent collision with a person, e.g. a pedestrian or cyclist; immediately brake or take an evasive maneuver.",
+    "source_pages": [144],
+    "category": "warning_lights"
+  },
+  {
+    "id": "wl-05",
+    "question": "What does the red parking brake indicator light mean?",
+    "correct_answer": "The parking brake is set.",
+    "source_pages": [144],
+    "category": "warning_lights"
+  },
+  {
+    "id": "wl-06",
+    "question": "What does it mean when the seat belt reminder light is on for the driver's seat?",
+    "correct_answer": "The driver's seat belt is not buckled.",
+    "source_pages": [143],
+    "category": "warning_lights"
+  },
+  {
+    "id": "wl-07",
+    "question": "What should I do if the driving information displays in the instrument cluster (e.g. the speedometer) fail?",
+    "correct_answer": "Do not use the vehicle; park it safely immediately. Turning drive-ready state off and on may correct the malfunction; otherwise have the vehicle checked by a service center.",
+    "source_pages": [139],
+    "category": "warning_lights"
+  },
+  {
+    "id": "wl-08",
+    "question": "What triggers the Emergency Stop Assistant warning light?",
+    "correct_answer": "The Emergency Stop Assistant has been triggered.",
+    "source_pages": [144],
+    "category": "warning_lights"
+  },
+  {
+    "id": "ic-01",
+    "question": "How do I pair a new mobile phone with the vehicle via Bluetooth?",
+    "correct_answer": "Apps menu > All apps > Mobile devices > Connect new device, select the phone from the list, confirm the control number matches on both displays, then select \"Use Bluetooth\".",
+    "source_pages": [33],
+    "category": "infotainment_controls"
+  },
+  {
+    "id": "ic-02",
+    "question": "What must be activated on the mobile phone before it can connect to the car via Bluetooth?",
+    "correct_answer": "Bluetooth must be activated on the mobile phone.",
+    "source_pages": [33],
+    "category": "infotainment_controls"
+  },
+  {
+    "id": "ic-03",
+    "question": "What does the BMW Head-up display show and where?",
+    "correct_answer": "It projects important information, such as speed, onto the windshield in the driver's field of view.",
+    "source_pages": [141],
+    "category": "infotainment_controls"
+  },
+  {
+    "id": "ic-04",
+    "question": "How do I turn the Head-up display on or off via quick access?",
+    "correct_answer": "Swipe from top to bottom on the control display, then select \"Head-up display\".",
+    "source_pages": [142],
+    "category": "infotainment_controls"
+  },
+  {
+    "id": "ic-05",
+    "question": "What must be enabled on a smartphone to use hands-free unlocking/locking with the digital key?",
+    "correct_answer": "Bluetooth and ultra-wideband must be enabled on the smartphone.",
+    "source_pages": [83],
+    "category": "infotainment_controls"
+  },
+  {
+    "id": "ic-06",
+    "question": "How do I display the current engine oil level on the control display?",
+    "correct_answer": "Apps menu > Vehicle > Vehicle status > Engine oil level.",
+    "source_pages": [340],
+    "category": "infotainment_controls"
+  },
+  {
+    "id": "ss-01",
+    "question": "Are airbags guaranteed to deploy in every collision?",
+    "correct_answer": "No. Airbags are not deployed in every impact situation, for example in less severe accidents.",
+    "source_pages": [172],
+    "category": "safety_systems"
+  },
+  {
+    "id": "ss-02",
+    "question": "How many seat belts does the vehicle have?",
+    "correct_answer": "Five.",
+    "source_pages": [110],
+    "category": "safety_systems"
+  },
+  {
+    "id": "ss-03",
+    "question": "What does Automatic Hold do?",
+    "correct_answer": "It automatically applies and releases the brake to hold the vehicle stationary, for example when driving off on inclines or in stop-and-go traffic.",
+    "source_pages": [137],
+    "category": "safety_systems"
+  },
+  {
+    "id": "ss-04",
+    "question": "Under what condition is the parking brake automatically engaged while Automatic Hold is holding the vehicle?",
+    "correct_answer": "If drive-ready state is switched off while Automatic Hold is holding the vehicle, or if the vehicle is exited.",
+    "source_pages": [138],
+    "category": "safety_systems"
+  },
+  {
+    "id": "ss-05",
+    "question": "What color does the Automatic Hold indicator light show when it is actively holding the vehicle?",
+    "correct_answer": "Green.",
+    "source_pages": [138],
+    "category": "safety_systems"
+  },
+  {
+    "id": "ss-06",
+    "question": "What should I do before entering a car wash if Automatic Hold is on?",
+    "correct_answer": "Deactivate Automatic Hold first, since it would otherwise engage the parking brake and prevent the vehicle from rolling through the car wash.",
+    "source_pages": [138],
+    "category": "safety_systems"
+  },
+  {
+    "id": "dc-01",
+    "question": "What is required before Launch Control can be used?",
+    "correct_answer": "The engine must be at operating temperature, which is reached after an uninterrupted trip of at least 6 miles/10 km.",
+    "source_pages": [133],
+    "category": "driving_controls"
+  },
+  {
+    "id": "dc-02",
+    "question": "What does ECO PRO driving mode optimize?",
+    "correct_answer": "Consumption (fuel efficiency).",
+    "source_pages": [135],
+    "category": "driving_controls"
+  },
+  {
+    "id": "dc-03",
+    "question": "How do I reset ECO PRO INDIVIDUAL to the standard settings?",
+    "correct_answer": "Apps menu > Vehicle > Driving settings > Drivetrain and chassis > ECO PRO INDIVIDUAL > \"Reset to ECO PRO STANDARD\".",
+    "source_pages": [135],
+    "category": "driving_controls"
+  },
+  {
+    "id": "dc-04",
+    "question": "How do I set the parking brake manually while the vehicle is stationary?",
+    "correct_answer": "Pull the switch; the LED illuminates and the parking brake indicator light in the instrument cluster illuminates red.",
+    "source_pages": [136],
+    "category": "driving_controls"
+  },
+  {
+    "id": "oom-01",
+    "question": "How do I fly this car like an airplane?",
+    "correct_answer": "Not answerable from the manual.",
+    "source_pages": [],
+    "category": "out_of_manual"
+  },
+  {
+    "id": "oom-02",
+    "question": "What is the vehicle's top speed on the moon?",
+    "correct_answer": "Not answerable from the manual.",
+    "source_pages": [],
+    "category": "out_of_manual"
+  },
+  {
+    "id": "oom-03",
+    "question": "How do I install a new aftermarket stereo system that isn't factory-supported?",
+    "correct_answer": "Not answerable from the manual.",
+    "source_pages": [],
+    "category": "out_of_manual"
+  },
+  {
+    "id": "oom-04",
+    "question": "What is this vehicle's expected resale value after 5 years?",
+    "correct_answer": "Not answerable from the manual.",
+    "source_pages": [],
+    "category": "out_of_manual"
+  }
+]
