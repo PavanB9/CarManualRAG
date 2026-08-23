@@ -7,8 +7,7 @@ owner's manual PDF — with page citations — instead of generic/hallucinated A
 
 Built to be **general-purpose**: a user can upload their own car manual PDF(s) — any
 make/model/year, not hardcoded to one vehicle — plus their own API key, so this can be
-published on GitHub and run by anyone for their own car(s). Test/dev manual: 2025 BMW
-330i owner's manual (PDF, ~300 pages).
+published on GitHub and run by anyone for their own car(s). Test/dev manual: 2025 car owner's manual (PDF, ~300 pages).
 
 The differentiator vs. a basic "chat with PDF" clone: a built-in **eval suite** and
 **telemetry dashboard** that measure retrieval accuracy, answer correctness, and
