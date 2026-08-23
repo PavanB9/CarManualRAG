@@ -14,9 +14,10 @@ for d in (DATA_DIR, UPLOADS_DIR, CHROMA_DIR, EVAL_RUNS_DIR):
 EMBEDDING_MODEL_ID = "BAAI/bge-small-en-v1.5"
 BGE_QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
 
-# ~1 token ≈ 4 chars; defaults chosen to land near 600 tokens per chunk with 100 overlap
-DEFAULT_CHUNK_CHARS = 2400
-DEFAULT_CHUNK_OVERLAP_CHARS = 400
+# ~1 token ≈ 4 chars; chunk size and top_k are the eval-selected winners — see
+# RESULTS.md for the comparison against chunk~600/800 tokens and top_k 3/6.
+DEFAULT_CHUNK_CHARS = 2000
+DEFAULT_CHUNK_OVERLAP_CHARS = 330
 DEFAULT_TOP_K = 5
 
 MAX_UPLOAD_BYTES = 50 * 1024 * 1024  # 50 MB
