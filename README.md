@@ -10,6 +10,13 @@ suite (retrieval accuracy, answer correctness, faithfulness) and a telemetry
 dashboard, so this is measured, not just demoed — see [RESULTS.md](RESULTS.md) for
 the tuning experiments and their numbers.
 
+Manuals are full of vehicle-specific detail — exact warning-light meanings, fluid
+specs, reset procedures, feature toggles buried five menus deep — that a web search
+or a general-purpose AI won't know, because it's specific to your make, model,
+year, and trim and was never on the open web to begin with. This answers those
+niche questions straight from the document that actually has them, with a page
+reference so you can double-check it yourself.
+
 ## How it works
 
 1. **Ingest**: a PDF is parsed page-by-page (PyMuPDF), chunked with overlap, embedded
