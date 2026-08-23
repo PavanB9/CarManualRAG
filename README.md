@@ -133,5 +133,20 @@ data/                Local-only: uploads, Chroma vector DB, eval run history (gi
 
 ## Tech stack
 
-FastAPI · PyMuPDF · fastembed (`bge-small-en-v1.5`, local) · Chroma (local,
-file-based) · OpenAI / Anthropic (BYOK) · React + Vite + Tailwind + Recharts
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-5C2D91?style=for-the-badge)
+![fastembed](https://img.shields.io/badge/fastembed-4B8BBE?style=for-the-badge)
+![Chroma](https://img.shields.io/badge/Chroma-FF6F00?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge)
+
+Embeddings: `bge-small-en-v1.5` (local). Vector store: Chroma (local, file-based). LLM: OpenAI or Anthropic, bring your own key.
+
+Built with:
+
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
