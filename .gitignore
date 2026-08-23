@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+frontend/dist/
+
+# Env / secrets
+.env
+
+# Project data (uploads, vector DB, eval runs) — never commit
+data/
+
+# Manual PDFs — copyrighted content, not source
+*.pdf

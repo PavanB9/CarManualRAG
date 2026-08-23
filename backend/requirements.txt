@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pymupdf
+chromadb
+fastembed
+anthropic>=1.0
+python-dotenv
+pydantic
