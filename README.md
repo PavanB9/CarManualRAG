@@ -4,7 +4,7 @@ Ask natural-language questions about your car and get answers sourced directly f
 your own owner's manual PDF — with page citations you can click to see the actual
 page — instead of generic or hallucinated AI answers.
 
-Upload any car manual PDF (not just BMW), ask questions in a chat UI, and click a
+Upload any car manual PDF, ask questions in a chat UI, and click a
 citation to see the exact manual page the answer came from. Built with a real eval
 suite (retrieval accuracy, answer correctness, faithfulness) and a telemetry
 dashboard, so this is measured, not just demoed — see [RESULTS.md](RESULTS.md) for
