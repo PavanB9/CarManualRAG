@@ -49,6 +49,42 @@ Two providers are supported, selected via `LLM_PROVIDER` in `.env`:
 
 Embeddings always run locally (no embedding-provider key needed).
 
+## Run with Docker
+
+The fastest way to run this — no local Python/Node setup needed. The manual
+two-terminal setup below still works exactly as-is if you'd rather run it that way.
+
+Requires [Docker](https://docs.docker.com/get-docker/) with Compose v2.
+
+```bash
+# 1. Configure your API key (same .env as the manual setup)
+cp .env.example .env
+# edit .env and add your OPENAI_API_KEY (or switch LLM_PROVIDER=anthropic and add
+# ANTHROPIC_API_KEY)
+
+# 2. Build and run both services
+docker compose up --build
+```
+
+Open http://localhost:3000 (the frontend, served by nginx and proxying `/api` to
+the backend). The backend API is also reachable directly at
+http://localhost:8000 (e.g. http://localhost:8000/docs).
+
+- **Data persists on your machine**: `./data/` is bind-mounted into the backend
+  container, so uploads, the Chroma vector DB, and eval run history live in the
+  same `data/` folder the manual setup uses — nothing is lost on
+  `docker compose down` or a rebuild.
+- **The local embedding model** (~130 MB, first run only) is cached in a named
+  Docker volume, not `data/`, so it downloads once and survives restarts.
+- **API keys are never baked into the image** — they're passed at container
+  startup from `.env` via `env_file`.
+- Run the eval suite inside the running backend container:
+  ```bash
+  docker compose exec backend python /app/eval/runner.py --label "docker"
+  ```
+- Stop everything with `docker compose down` (add `-v` to also drop the cached
+  embedding model; your `data/` folder is untouched either way).
+
 ## Setup
 
 Requires Python 3.11+ and Node 18+. Everything installs into the project folder —

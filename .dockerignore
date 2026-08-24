@@ -1,0 +1,10 @@
+.git
+.venv
+data
+**/node_modules
+frontend/dist
+**/__pycache__
+*.pyc
+*.pdf
+.env
+PLAN_1.md
