@@ -170,16 +170,16 @@ data/                Local-only: uploads, Chroma vector DB, eval run history (gi
 ## Tech stack
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PyMuPDF](https://img.shields.io/badge/PyMuPDF-5C2D91?style=for-the-badge)
-![fastembed](https://img.shields.io/badge/fastembed-4B8BBE?style=for-the-badge)
-![Chroma](https://img.shields.io/badge/Chroma-FF6F00?style=for-the-badge)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-5C2D91?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTYgMmg5bDUgNXYxNUg2eiIvPjxwYXRoIGQ9Ik0xNSAydjVoNSIvPjwvc3ZnPgo%3D)
+![fastembed](https://img.shields.io/badge/fastembed-4B8BBE?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI%2BPGNpcmNsZSBjeD0iNSIgY3k9IjYiIHI9IjIiLz48Y2lyY2xlIGN4PSI1IiBjeT0iMTgiIHI9IjIiLz48Y2lyY2xlIGN4PSIxOSIgY3k9IjEyIiByPSIyIi8%2BPHBhdGggZD0iTTcgNmwxMCA2TTcgMThsMTAtNiIvPjwvc3ZnPgo%3D)
+![Chroma](https://img.shields.io/badge/Chroma-FF6F00?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPGVsbGlwc2UgY3g9IjEyIiBjeT0iNSIgcng9IjgiIHJ5PSIzIi8%2BPHBhdGggZD0iTTQgNXYxNGMwIDEuNyAzLjYgMyA4IDNzOC0xLjMgOC0zVjUiLz48cGF0aCBkPSJNNCAxMmMwIDEuNyAzLjYgMyA4IDNzOC0xLjMgOC0zIi8%2BPC9zdmc%2BCg%3D%3D)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZmZmZiI%2BPHBhdGggZD0iTTEyIDJsMS44IDYuMkwyMCAxMGwtNi4yIDEuOEwxMiAxOGwtMS44LTYuMkw0IDEwbDYuMi0xLjhMMTIgMnoiLz48L3N2Zz4K)
 ![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZmZmZiI%2BPHJlY3QgeD0iMyIgeT0iMTQiIHdpZHRoPSI0IiBoZWlnaHQ9IjciIHJ4PSIwLjUiLz48cmVjdCB4PSIxMCIgeT0iOSIgd2lkdGg9IjQiIGhlaWdodD0iMTIiIHJ4PSIwLjUiLz48cmVjdCB4PSIxNyIgeT0iMyIgd2lkdGg9IjQiIGhlaWdodD0iMTgiIHJ4PSIwLjUiLz48L3N2Zz4K)
 
 Embeddings: `bge-small-en-v1.5` (local). Vector store: Chroma (local, file-based). LLM: OpenAI or Anthropic, bring your own key.
 
